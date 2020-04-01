@@ -6,12 +6,11 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
 
-            myClass myclass = new myClass();
-            
-
-
+            myClass minklasse = new myClass("Jakob", "Mariendalsvej 6b", 3600);
+            System.Console.WriteLine(minklasse);
+        
         }
     }
 }
